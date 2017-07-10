@@ -1,24 +1,40 @@
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-   font-weight: 300;
-   line-height: 1.6em;
-   font-size: 1.3em;
+    margin-top: 20px;
+    background-image: url('http://bgfons.com/uploads/wood/wood%20_texture1757.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-input {
-  font-size: 1.5em;
+.glyphicon {
+    float: right;
+    margin-top: 7px;
 }
 
-.container {
-  width: 960px;
-  margin:auto;
-  margin-top:50px;
+.col-sm-8 {
+    width: 550px;
 }
 
-ul {
-  padding-left: 20px;
+#note button {
+    background-color: #2EFEF7;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
 }
 
-.delete-note-link {
-  color:red;
+input[type="text"] {
+/*    background: rgba(255,255,255,0.1);*/
+    background: transparent;
+    border: none;
+    width: 234px;
 }
+
+.row button {
+    background: transparent;
+    font-weight: bolder;
+}
+
+
+
+/*.row button {
+    background-color: #BDBDBD;
+}*/

@@ -8,6 +8,7 @@ class Api::V1::NotesController < ApplicationController
 
   def create
     note = Note.create(note_params)
+    puts note_params
     render json: note, status: 201
   end
 
@@ -28,7 +29,7 @@ class Api::V1::NotesController < ApplicationController
 
   private
   def note_params
-    params.permit(:body)
+    params.permit(:title, :body, :user)
   end
 
   def set_note
